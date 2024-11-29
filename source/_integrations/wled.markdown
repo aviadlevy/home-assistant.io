@@ -171,7 +171,6 @@ data:
 
 {% endraw %}
 
-
 ### Activating random palette
 
 Activating a random palette is very similar to the above random effect,
