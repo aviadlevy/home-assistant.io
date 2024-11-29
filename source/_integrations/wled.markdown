@@ -166,7 +166,7 @@ action: light.turn_on
 target:
   entity_id: light.wled
 data:
-  effect: "{{ state_attr('light.wled', 'effect_list')[1:118] | reject("equalto", "RSVD") | list | random }}"
+  effect: "{{ state_attr('light.wled', 'effect_list')[1:118] | reject('equalto', 'RSVD') | list | random }}"
 ```
 
 {% endraw %}
